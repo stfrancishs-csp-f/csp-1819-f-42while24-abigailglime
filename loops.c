@@ -4,18 +4,21 @@ int main(void)
    int sum=0;
    int k;
 
-     k=5;
+     k=0;
 
-    while (k>0) {
-        k=k-1; //use something different in "for" version
-        printf ("%d\n", k);
-    }
-
-        for (k=0;k<5;k++)
+    while (k<5)
     {
-        sum+=k; //use something different in "while" version
+        sum=sum+k;
+        k++; //use something different in "for" version
+    }
+    printf ("%d\n", sum);
+
+        for (k=5;k>0;)
+     {
+         k--;
+  printf ("%d\n", k);
     }
 
-    printf ("%d\n",sum);
+
 
 }
