@@ -18,7 +18,4 @@ int main(void)
          k--;
   printf ("%d\n", k);
     }
-
-
-
 }
