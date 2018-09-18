@@ -12,6 +12,7 @@ int main(void)
         sum=sum+k;
         k++;
     }
+    printf("sum-%d\n",sum);
     //printf ("4 + 6 = %d -sum\n", sum);
 
         for (k=11;k>1;)
