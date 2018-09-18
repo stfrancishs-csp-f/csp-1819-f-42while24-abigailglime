@@ -9,13 +9,14 @@ int main(void)
     while (k<5)
     {
         sum=sum+k;
-        k++; //use something different in "for" version
+        k++;
     }
-    printf ("%d\n", sum);
+    printf ("4 + 6 = %d -sum\n", sum);
 
-        for (k=5;k>0;)
+        for (k=11;k>1;)
      {
          k--;
-  printf ("%d\n", k);
+  printf ("%2d\n", k);
     }
+    printf ("Blastoff!\n");
 }
