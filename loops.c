@@ -8,10 +8,11 @@ int main(void)
 
     while (k<5)
     {
+        printf("%2d\n",k);
         sum=sum+k;
         k++;
     }
-    printf ("4 + 6 = %d -sum\n", sum);
+    //printf ("4 + 6 = %d -sum\n", sum);
 
         for (k=11;k>1;)
      {
